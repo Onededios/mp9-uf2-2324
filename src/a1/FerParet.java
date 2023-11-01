@@ -13,7 +13,7 @@ public class FerParet {
 		ti = (int) System.currentTimeMillis();
 		//Donem nom als paletes i els posem a fer fer la paret
 		for (int i=0;i<numPaletes;i++) {
-			P[i] = new Paleta("Paleta-"+i);
+			P[i] = new Paleta("Paleta-"+i, numMaons);
 			P[i].posaMaons(numMaons);
 		}
 		//Han acabat i agafem el temps final

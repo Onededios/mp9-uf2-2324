@@ -26,7 +26,5 @@ public class Notes {
 		}
 		System.out.println("Han trigat: " + (te - ti)/1000 + " segons");
 	}
-	
-	
 
 }
